@@ -1,5 +1,6 @@
 import React, {useState,useEffect} from "react";
 import axios from 'axios';
+import './Course.css'
 
 export default function AddCourse() {
 
@@ -48,7 +49,16 @@ export default function AddCourse() {
     }
 
   return (
+    <div>
+      <br></br>
+     <a  className="backBtn" role="button" href={`/`} style={{textDecoration:'none'}}> 
+       Go Back 
+      </a>
+   
     <div className="course">
+     
+                              
+                               
     <center><h1 className="Hfont">Add Course</h1></center>
  
     <br></br>
@@ -142,6 +152,7 @@ export default function AddCourse() {
         </form>
        </div>
 
+</div>
 </div>
   )
 }

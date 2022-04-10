@@ -104,3 +104,17 @@
   background-color: #e8eff3;
   margin-left: 30%;
 }
+
+.backBtn{
+  margin-left: 7%;
+  padding: 5px;
+  width: 15%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #363636;
+  border-radius: 1.2mm;
+  background-color: #e0ebf1;
+  border-width: 1mm;
+  border-style: solid;
+  border-color: #3720b9;
+}
